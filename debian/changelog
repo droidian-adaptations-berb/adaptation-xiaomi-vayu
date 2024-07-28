@@ -1,4 +1,4 @@
-adaptation-xiaomi-vayu (11+git20240714235252.df1b8bc.droidian) trixie; urgency=medium
+adaptation-xiaomi-vayu-api32 (11+git20240728073644.a7a04ac.droidian) trixie; urgency=medium
 
   * Add: doc file todo.txt
   * Update debian changelog
@@ -14,7 +14,7 @@ adaptation-xiaomi-vayu (11+git20240714235252.df1b8bc.droidian) trixie; urgency=m
 
  -- berbascum <berbascum@ticv.cat>  Mon, 15 Jul 2024 01:52:52 +0200
 
-adaptation-xiaomi-vayu (10) trixie; urgency=medium
+adaptation-xiaomi-vayu-api32 (10) trixie; urgency=medium
 
   * Update: debian changelog
   * Update: doc README.md
@@ -24,7 +24,7 @@ adaptation-xiaomi-vayu (10) trixie; urgency=medium
 
  -- berbascum <berbascum@ticv.cat>  Wed, 26 Jun 2024 16:08:19 +0200
 
-adaptation-xiaomi-vayu (9) trixie; urgency=medium
+adaptation-xiaomi-vayu-api32 (9) trixie; urgency=medium
 
   * Update debian changelog
   * New: fix queekboard execution since is taking too long until it appears
@@ -34,7 +34,7 @@ adaptation-xiaomi-vayu (9) trixie; urgency=medium
 
  -- berbascum <berbascum@ticv.cat>  Mon, 24 Jun 2024 22:28:17 +0200
 
-adaptation-xiaomi-vayu (8) trixie; urgency=medium
+adaptation-xiaomi-vayu-api32 (8) trixie; urgency=medium
 
   * Update debian changelog
   * Improve: Some improvements on fixes names, and enable an execution log for all script fixes
@@ -45,7 +45,7 @@ adaptation-xiaomi-vayu (8) trixie; urgency=medium
 
  -- berbascum <berbascum@ticv.cat>  Sun, 23 Jun 2024 23:57:38 +0200
 
-adaptation-xiaomi-vayu (7) trixie; urgency=medium
+adaptation-xiaomi-vayu-api32 (7) trixie; urgency=medium
 
   * Update: changelog
   * Update: doc, bluetooth debug commands added
@@ -54,7 +54,7 @@ adaptation-xiaomi-vayu (7) trixie; urgency=medium
 
  -- berbascum <berbascum@ticv.cat>  Sun, 23 Jun 2024 14:16:32 +0200
 
-adaptation-xiaomi-vayu (6) trixie; urgency=medium
+adaptation-xiaomi-vayu-api32 (6) trixie; urgency=medium
 
   * Update debian changelog
   * Fix: droidian-perf.sh exec permissions
@@ -65,21 +65,21 @@ adaptation-xiaomi-vayu (6) trixie; urgency=medium
 
  -- berbascum <berbascum@ticv.cat>  Sat, 22 Jun 2024 13:27:18 +0200
 
-adaptation-xiaomi-vayu (5) trixie; urgency=medium
+adaptation-xiaomi-vayu-api32 (5) trixie; urgency=medium
 
   * Update debian changelog
   * Revert: commit 962cd88, setting phoc HWCOMPOSER scale to 3 again
 
  -- berbascum <berbascum@ticv.cat>  Wed, 19 Jun 2024 22:00:06 +0200
 
-adaptation-xiaomi-vayu (4) trixie; urgency=medium
+adaptation-xiaomi-vayu-api32 (4) trixie; urgency=medium
 
   * Update debian changelog
   * Update: packade deps, some splitted from control to package-sideload-create.d/xiaomi-vayu
 
  -- berbascum <berbascum@ticv.cat>  Tue, 18 Jun 2024 23:13:39 +0200
 
-adaptation-xiaomi-vayu (3) trixie; urgency=medium
+adaptation-xiaomi-vayu-api32 (3) trixie; urgency=medium
 
   * Update debian changelog
   * Revert commit 1bfdf29 configuring again 10 seconds sleep on bluebinder service
@@ -88,14 +88,14 @@ adaptation-xiaomi-vayu (3) trixie; urgency=medium
 
  -- berbascum <berbascum@ticv.cat>  Tue, 18 Jun 2024 00:30:49 +0200
 
-adaptation-xiaomi-vayu (2) trixie; urgency=medium
+adaptation-xiaomi-vayu-api32 (2) trixie; urgency=medium
 
   * Reduce bluebinder override sleep from 10 to 2 seconds
   * Set HWCOMPOSER scale from 3 to 2.75
 
  -- berbascum <berbascum@ticv.cat>  Mon, 17 Jun 2024 07:46:36 +0200
 
-adaptation-xiaomi-vayu (1) trixie; urgency=medium
+adaptation-xiaomi-vayu-api32 (1) trixie; urgency=medium
 
   * Update debian/changelog
   * Add: Files LICENSE and initial README.md to the git root dir
@@ -122,7 +122,7 @@ adaptation-xiaomi-vayu (1) trixie; urgency=medium
 
  -- berbascum <berbascum@ticv.cat>  Mon, 17 Jun 2024 00:48:11 +0200
 
-adaptation-xiaomi-vayu (0.1.5) trixie; urgency=medium
+adaptation-xiaomi-vayu-api32 (0.1.5) trixie; urgency=medium
 
   [ berbascum ]
   * Update needed files to build a deb without deps to transition to the new package

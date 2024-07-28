@@ -3,10 +3,12 @@ Upstream-Name: adaptation-xiaomi-vayu
 Source: https://github.com/droidian-vayu/adaptation-xiaomi-vayu
 
 Files: *
+Copyright: 2024 berbascum <berbascum@ticv.cat>
 Copyright: 2023 vacuumbeef <stresscult@disroot.org>
 License: BSD-3-clause
 
 Files: debian/*
+Copyright: 2024 berbascum <berbascum@ticv.cat>
 Copyright: 2023 vacuumbeef <stresscult@disroot.org>
 License: BSD-3-clause
 

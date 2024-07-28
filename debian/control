@@ -1,23 +1,21 @@
-Source: adaptation-xiaomi-vayu
-Maintainer: vacuumbeef
+Source: adaptation-xiaomi-vayu-api32
+Maintainer: berbascum
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10),
 	       debhelper-compat (= 13),
 Standards-Version: 4.5.0.3
 
-Package: adaptation-xiaomi-vayu
+Package: adaptation-xiaomi-vayu-api32
 Architecture: arm64
 Depends: ${misc:Depends},
-         adaptation-hybris-api30-phone,
+         adaptation-hybris-api32-phone,
+         adaptation-xiaomi-vayu-api32-configs,
 	 linux-bootimage-xiaomi-vayu,
-         adaptation-xiaomi-vayu-configs,
          inotify-tools,
-Conflicts: adaptation-droidian-vayu,
-           adaptation-vayu-configs,
-Description: Community adaptation for xiaomi-vayu api30 - metapackage
+Description: Community adaptation for xiaomi-vayu api32 - metapackage
 
-Package: adaptation-xiaomi-vayu-configs
+Package: adaptation-xiaomi-vayu-api32-configs
 Architecture: arm64
 Depends: ${misc:Depends},
-Description: Droidian adaptation for Xiaomi Pocophone X3 Pro vayu api30 - adaptation configurations
+Description: Droidian adaptation for Xiaomi Pocophone X3 Pro vayu api32 - adaptation configurations
